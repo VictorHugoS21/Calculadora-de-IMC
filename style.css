@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 10px;
+}
+
+title{
+    display: none;
+}
+
+body{
+    background:  blue;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+form input{
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+}
+
+form input#botao{
+    margin-top: 15px;
+    border-radius: 0;
+    font-size: 1.5em;
+    display: flex;
+    align-content: center;
+    
+}
+
+form label{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
