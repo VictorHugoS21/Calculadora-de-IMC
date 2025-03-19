@@ -8,19 +8,22 @@
 </head>
 <body>
     
-    <form onsubmit="return calcular(event)">
-        <label>Digite seu peso:</label> <br>
-        <input type="text" name="peso" id="peso" placeholder="Exemplo 60"> <br> <br>
+    <section class="container">
+        <form onsubmit="return calcular(event)">
+            <label>Digite seu peso:</label> <br>
+                <input type="text" name="peso" id="peso" placeholder="Exemplo 60"> <br> <br>
 
-        <label>Digite sua altura</label> <br>
-        <input type="text" name="altura" id="altura" placeholder="Exemplo 1.80"> <br> <br>
+            <label>Digite sua altura</label> <br>
+            <input type="text" name="altura" id="altura" placeholder="Exemplo 1.80"> <br> <br>
 
-        <input type="submit" value="Calcular IMC" id="botao">
+            <input type="submit" value="Calcular IMC" id="botao">
 
-    </form>
+        </form>
 
-    <div id="resultado"></div>
+        <div id="resultado"></div>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
+
+    </section>
 </body>
 </html>

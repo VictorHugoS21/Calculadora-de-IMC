@@ -16,20 +16,33 @@ body{
     justify-content: center
 }
 
+section.container{
+    background-color: #b8b8b8;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
 form input{
     display: flex;
     border-radius: 5px;
     border: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.3em;
+    
 }
 
 form input#botao{
-    margin-top: 15px;
+    margin-top: 30px;
     border-radius: 0;
     font-size: 1.5em;
     display: flex;
-    align-content: center;
+    text-align: center;
     
 }
 
