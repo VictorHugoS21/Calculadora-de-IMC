@@ -9,6 +9,7 @@
 <body>
     
     <section class="container">
+        <h1>Calculadora de IMC</h1>
         <form onsubmit="return calcular(event)">
             <label>Digite seu peso:</label> <br>
                 <input type="text" name="peso" id="peso" placeholder="Exemplo 60"> <br> <br>
@@ -16,11 +17,14 @@
             <label>Digite sua altura</label> <br>
             <input type="text" name="altura" id="altura" placeholder="Exemplo 1.80"> <br> <br>
 
-            <input type="submit" value="Calcular IMC" id="botao">
+            <input type="submit" value="Calcular" id="botao">
 
         </form>
 
-        <div id="resultado"></div>
+        <section class="result">
+            <div id="resultado"></div>
+        </section>
+       
 
         <script src="script.js"></script>
 
